@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.status {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #555;
+  font-weight: bold;
+}
+
+.board {
+  display: inline-block;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 48px;
+  font-weight: bold;
+  border: 2px solid #555;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 2px;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+.square:hover {
+  background-color: #f0f0f0;
+}
+
+.square:active {
+  background-color: #e0e0e0;
+}
+
+.reset-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.reset-button:hover {
+  background-color: #45a049;
+}
+
+.reset-button:active {
+  background-color: #3d8b40;
+}
+
